@@ -1,0 +1,60 @@
+Filter,
+K=50,
+Random Forest,Decision Tree
+Accuracy score (training): 0.955918,Accuracy score (training): 0.955918
+Confusion Matrix:,Confusion Matrix:
+[[634  20],[[622  32]
+ [ 53 949]], [ 41 961]]
+Classification Report,Classification Report
+              precision    recall  f1-score   support,              precision    recall  f1-score   support
+,
+   Cancelled       0.92      0.97      0.95       654,   Cancelled       0.94      0.95      0.94       654
+     Current       0.98      0.95      0.96      1002,     Current       0.97      0.96      0.96      1002
+,
+    accuracy                           0.96      1656,    accuracy                           0.96      1656
+   macro avg       0.95      0.96      0.95      1656,   macro avg       0.95      0.96      0.95      1656
+weighted avg       0.96      0.96      0.96      1656,weighted avg       0.96      0.96      0.96      1656
+,
+Accuracy score (test): 0.845411,Accuracy score (test): 0.867150
+Confusion Matrix:,Confusion Matrix:
+[[131  19],[[129  21]
+ [ 45 219]], [ 34 230]]
+Classification Report,Classification Report
+              precision    recall  f1-score   support,              precision    recall  f1-score   support
+,
+   Cancelled       0.74      0.87      0.80       150,   Cancelled       0.79      0.86      0.82       150
+     Current       0.92      0.83      0.87       264,     Current       0.92      0.87      0.89       264
+,
+    accuracy                           0.85       414,    accuracy                           0.87       414
+   macro avg       0.83      0.85      0.84       414,   macro avg       0.85      0.87      0.86       414
+weighted avg       0.86      0.85      0.85       414,weighted avg       0.87      0.87      0.87       414
+,
+K=100,
+Random Forest,Decision Tree
+Accuracy score (training): 0.969807,Accuracy score (training): 0.969807
+Confusion Matrix:,Confusion Matrix:
+[[621  33],[[639  15]
+ [ 17 985]], [ 35 967]]
+Classification Report,Classification Report
+              precision    recall  f1-score   support,              precision    recall  f1-score   support
+,
+   Cancelled       0.97      0.95      0.96       654,   Cancelled       0.95      0.98      0.96       654
+     Current       0.97      0.98      0.98      1002,     Current       0.98      0.97      0.97      1002
+,
+    accuracy                           0.97      1656,    accuracy                           0.97      1656
+   macro avg       0.97      0.97      0.97      1656,   macro avg       0.97      0.97      0.97      1656
+weighted avg       0.97      0.97      0.97      1656,weighted avg       0.97      0.97      0.97      1656
+,
+Accuracy score (test): 0.852657,Accuracy score (test): 0.833333
+Confusion Matrix:,Confusion Matrix:
+[[122  28],[[125  25]
+ [ 33 231]], [ 44 220]]
+Classification Report,Classification Report
+              precision    recall  f1-score   support,              precision    recall  f1-score   support
+,
+   Cancelled       0.79      0.81      0.80       150,   Cancelled       0.74      0.83      0.78       150
+     Current       0.89      0.88      0.88       264,     Current       0.90      0.83      0.86       264
+,
+    accuracy                           0.85       414,    accuracy                           0.83       414
+   macro avg       0.84      0.84      0.84       414,   macro avg       0.82      0.83      0.82       414
+weighted avg       0.85      0.85      0.85       414,weighted avg       0.84      0.83      0.84       414
